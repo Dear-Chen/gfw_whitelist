@@ -93,7 +93,7 @@ Google Chrome 代理
 
 ![新建pac配置](img/chrome-pac2.png)
 
-更新的pac地址: <https://raw.githubusercontent.com/breakwa11/gfw_whitelist/master/whiteiplist.pac>
+更新的pac地址: <https://raw.githubusercontent.com/Dear-Chen/gfw_whitelist/master/whiteiplist.pac>
 
 
 ![自动切换中将pac设置为default](img/chrome-pac3.png)
