@@ -14,15 +14,15 @@ def parse_args():
 		help='path to gfwlist')
 	parser.add_argument('-o', '--output', dest='output', default='proxy.pac',
 		help='path to output pac', metavar='PAC')
-	parser.add_argument('-p', '--proxy', dest='proxy', default='"SOCKS5 127.0.0.1:1080;"',
+	parser.add_argument('-p', '--proxy', dest='proxy', default='"SOCKS5 127.0.0.1:10808;"',
 		help='the proxy parameter in the pac file, for example,\
-		"SOCKS5 127.0.0.1:1080;"', metavar='SOCKS5')
+		"SOCKS5 127.0.0.1:10808;"', metavar='SOCKS5')
 	parser.add_argument('-a', '--auto_proxy', dest='auto_proxy', default='auto',
 		help='the auto proxy parameter in the pac file, for example,\
-		"SOCKS5 127.0.0.1:1080;"', metavar='SOCKS5')
+		"SOCKS5 127.0.0.1:10808;"', metavar='SOCKS5')
 	parser.add_argument('-d', '--directip_proxy', dest='ip_proxy', default='auto',
 		help='the auto proxy parameter in the pac file, for example,\
-		"SOCKS5 127.0.0.1:1080;"', metavar='SOCKS5')
+		"SOCKS5 127.0.0.1:10808;"', metavar='SOCKS5')
 	parser.add_argument('-z', '--dynamic', dest='dynamic', default='no')
 	return parser.parse_args()
 
